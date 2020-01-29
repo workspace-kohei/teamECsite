@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* =====columns===== */
+.contents{
+	width: 90%;
+	overflow:hidden;
+	padding-top: 15px;
+	margin-bottom: 50px;
+}
+
+.left{
+	width: 500px;
+	float: left;
+	margin-right: 50px;
+}
+
+.right{
+	width: 500px;
+	float: left;
+}
+
+.addCartBtnBox{
+	margin-top: 30px;
+}
+
+/* =====table===== */
+.productInfoList{
+	width: 100%;
+	line-height: 1.5;
+	border-spacing: 0;
+	font-size: 20px;
+	text-align: left;
+}
+
+.productInfoList th{
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	border-left: 1px solid #fff;
+	background-color: #4651FB;
+	color: #fff;
+	width: 40%;
+	padding: 10px;
+}
+
+.productInfoList td{
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+
+.box{
+	clear: both;
+}
+
+.relatedProductBox{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.box h2{
+	text-align: center;
+}
+
+.recommendBox{
+	margin: 50px auto 80px auto;
+	width: 33.3333%;
+	float: left;
+}
+
+.image-box-10{
+	width: 10rem;
+	height: 10rem;
+}
+
+a{
+	text-decoration: none;
+}
